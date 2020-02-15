@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-for (let i = 1024; i >= 0; i--) {
+for (let i = (2 * 1024); i >= 0; i--) {
 	createBigFile(`./out/${i}.txt`,'MB')
 }
 /**
